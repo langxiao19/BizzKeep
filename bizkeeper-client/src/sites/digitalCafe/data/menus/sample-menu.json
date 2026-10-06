@@ -1,0 +1,873 @@
+{
+  "id": "menu-001",
+  "restaurant_id": "rest-001",
+  "name": "Main Menu",
+  "description": "Menu from Clifton Cafe",
+  "categories": [
+    {
+      "id": "cat-sweet-crepes",
+      "name": "Sweet Crepes",
+      "description": "Sweet Crepes items",
+      "display_order": 1,
+      "items": [
+        {
+          "name": "Claudia's Classic",
+          "description": "Nutella & banana w/ powdered sugar",
+          "category": "Sweet Crepes",
+          "price": 8.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-e6305e25",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Ani's Bananaberry",
+          "description": "Nutella, banana & mixed berries w/ powdered sugar",
+          "category": "Sweet Crepes",
+          "price": 12.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-03a1a7bb",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Alli's Berries & Blintz",
+          "description": "Your choice: strawberries-or mixed berries, blintz cheese, cinnamon, powdered sugar, maple syrup & whipped cream",
+          "category": "Sweet Crepes",
+          "price": 12.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-00882c8b",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Apple Pie Blintz",
+          "description": "Caramel, apples & blintz cheese, finished w/ a caramel drizzle & candied pecans",
+          "category": "Sweet Crepes",
+          "price": 6.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-65839a62",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-savory-crepes",
+      "name": "Savory Crepes",
+      "description": "Savory Crepes items",
+      "display_order": 2,
+      "items": [
+        {
+          "name": "Chicken Florentine",
+          "description": "Chicken, spinach, mushroom & parmesan alfredo",
+          "category": "Savory Crepes",
+          "price": 8.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-52941327",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Melissa's Goat & Date",
+          "description": "Chicken, dates, candied pecans, goat cheese, spinach & poppy seed crema",
+          "category": "Savory Crepes",
+          "price": 15.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-2500aa17",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Evan's Exotic Equation",
+          "description": "Pesto aioli, chicken, spinach, feta cheese & tomato",
+          "category": "Savory Crepes",
+          "price": 15.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-0cd00e6d",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Chorizo & Hash",
+          "description": "Chorizo, potato & onion hash, cheddar, topped w/ jalapeno sauce",
+          "category": "Savory Crepes",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-c6efafbb",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Sven's Swingin' Salmon",
+          "description": "Smoked salmon lox, capers, feta, spinach, tomato, onion, mushroom & dill crema",
+          "category": "Savory Crepes",
+          "price": 17.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-8f926148",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Meat Lovers",
+          "description": "Applewood bacon, sausage, diced ham, fried egg, tomato & cheddar",
+          "category": "Savory Crepes",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-2e8358f6",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Hannah's Denver",
+          "description": "Diced ham, cheddar, tomato, mushroom, onion, peppers",
+          "category": "Savory Crepes",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-7fff1841",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Chesapeake Crab BLT",
+          "description": "Crab meat, Old Bay, lemon-pepper aioli, bacon, spinach & tomato w/ Bloody Mary sauce",
+          "category": "Savory Crepes",
+          "price": 18.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-b1744e36",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-sweet-breakfast",
+      "name": "Sweet Breakfast",
+      "description": "Sweet Breakfast items",
+      "display_order": 3,
+      "items": [
+        {
+          "name": "Belgian Waffle",
+          "description": "Served w/ bacon",
+          "category": "Sweet Breakfast",
+          "price": 7.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-0d57caf2",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Classic Brioche French Toast",
+          "description": "Served w/ bacon",
+          "category": "Sweet Breakfast",
+          "price": 12.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-b5a502d2",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Banana Foster Brioche French Toast",
+          "description": "French toast covered w/ banana foster & toasted pecans w/ a side of bacon",
+          "category": "Sweet Breakfast",
+          "price": 13.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-3ad7b76d",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Classic Pancakes",
+          "description": "Served w/ bacon",
+          "category": "Sweet Breakfast",
+          "price": 6.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-c2dbd35b",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Chocolate Chip Pancakes",
+          "description": "Served w/ bacon",
+          "category": "Sweet Breakfast",
+          "price": 12.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-2af89632",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Blueberry Pancakes",
+          "description": "Served w/ lemon zest mascarpone & a side of bacon, topped w/ blueberry compote",
+          "category": "Sweet Breakfast",
+          "price": 12.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-3fbc0454",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-savory-breakfast",
+      "name": "Savory Breakfast",
+      "description": "Savory Breakfast items",
+      "display_order": 4,
+      "items": [
+        {
+          "name": "Avocado Toast",
+          "description": "Multigrain toast topped w/ avocado, bacon & tomato w/ microgreens & balsamic",
+          "category": "Savory Breakfast",
+          "price": 11.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-9f1e8b80",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Breakfast Sandwich",
+          "description": "Egg & cheese on an English muffin + bacon, sausage or ham",
+          "category": "Savory Breakfast",
+          "price": 7.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-239adecd",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Home-Style Breakfast",
+          "description": "Two eggs, chorizo & hash w/ multigrain toast",
+          "category": "Savory Breakfast",
+          "price": 15.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-9df5d623",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Breakfast Bowl",
+          "description": "Potatoes & onion topped w/ bacon, smothered in gruyère cheese - baked and topped w/ an over-easy egg, served w/ multigrain toast",
+          "category": "Savory Breakfast",
+          "price": 15.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-56f56687",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Chicken & Waffle",
+          "description": "Belgian waffle w/ hand-breaded chicken, honey butter & powdered sugar",
+          "category": "Savory Breakfast",
+          "price": 17.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-0d804584",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "The Hangover Breakfast Burrito",
+          "description": "Egg, cheese, chorizo, red peppers, sautéed onions, hash w/ salsa",
+          "category": "Savory Breakfast",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-67fd518e",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Quiche of the Day",
+          "description": "Made fresh in-house daily",
+          "category": "Savory Breakfast",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-4e8caa18",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-sides-&-extras",
+      "name": "Sides & Extras",
+      "description": "Sides & Extras items",
+      "display_order": 5,
+      "items": [
+        {
+          "name": "Sausage Patties or Applewood Bacon",
+          "description": "Side option",
+          "category": "Sides & Extras",
+          "price": 5.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-e26f85e3",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Hash",
+          "description": "Side option",
+          "category": "Sides & Extras",
+          "price": 5.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-9900df08",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Toast, English Muffin or Croissant",
+          "description": "Side option",
+          "category": "Sides & Extras",
+          "price": 4.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-1a5239bd",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Bagel w/ Cream Cheese",
+          "description": "Side option",
+          "category": "Sides & Extras",
+          "price": 6.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-a453e732",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Smoked Salmon Lox & Bagel",
+          "description": "Onion, tomato, caper, creme cheese",
+          "category": "Sides & Extras",
+          "price": 11.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-6627d5a2",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Potato Salad",
+          "description": "Classic potato salad.",
+          "category": "Sides & Extras",
+          "price": 5.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-c3c56a00",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Fresh Fruit Bowl",
+          "description": "Fresh fruit bowl.",
+          "category": "Sides & Extras",
+          "price": 5.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-e03ef16d",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Mac & Cheese",
+          "description": "Classic mac & cheese.",
+          "category": "Sides & Extras",
+          "price": 7.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-d01632ec",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "House Side Salad",
+          "description": "House side salad.",
+          "category": "Sides & Extras",
+          "price": 8.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-99ec008d",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-starters",
+      "name": "Starters",
+      "description": "Starters items",
+      "display_order": 6,
+      "items": [
+        {
+          "name": "Hummus Plate w/ Lavish Chips",
+          "description": "Hummus served with lavish chips.",
+          "category": "Starters",
+          "price": 12.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-f6c117f2",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Spinach & Artichoke Dip",
+          "description": "Spinach and artichoke dip.",
+          "category": "Starters",
+          "price": 13.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-d33f6bb0",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Pretzels w/ Cheese Dip",
+          "description": "Pretzels served with cheese dip.",
+          "category": "Starters",
+          "price": 14.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-4a0bd3d2",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Maryland Crab Dip",
+          "description": "Maryland style crab dip.",
+          "category": "Starters",
+          "price": 15.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-31a47677",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-salads",
+      "name": "Salads",
+      "description": "Salads items",
+      "display_order": 7,
+      "items": [
+        {
+          "name": "Summer Strawberry Feta Salad",
+          "description": "Mixed greens, fresh strawberry, feta, toasted almonds, pickled onion, w/ balsamic drizzle.",
+          "category": "Salads",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-2e222a57",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Mediterranean Chicken",
+          "description": "Chicken, tomato, artichoke, roasted red pepper, feta, olive spread, hummus on spinach w/ citrus-basil dressing.",
+          "category": "Salads",
+          "price": 18.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-ff65688c",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "House Salad",
+          "description": "Roasted pecans, goat cheese, dates, tomato, over mixed greens w/ poppy seed crema.",
+          "category": "Salads",
+          "price": 14.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-b2942ded",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Clifton Cafe Cobb",
+          "description": "Chicken, bacon, egg, blue cheese, tomato, avocado & red onion, over mixed greens w/ buttermilk ranch dressing.",
+          "category": "Salads",
+          "price": 18.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-98293267",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "The Sonoma Salad",
+          "description": "Baby arugula, beets, goat cheese & pecans w/ a champagne vinaigrette & balsamic drizzle.",
+          "category": "Salads",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-cf7214ca",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Seared Salmon Salad",
+          "description": "Atlantic salmon filet, mixed greens, tomato, toasted almonds, and dried cranberries w/ a miso vinaigrette.",
+          "category": "Salads",
+          "price": 18.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 15,
+          "id": "item-a07e7161",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-sandwiches",
+      "name": "Sandwiches",
+      "description": "Sandwiches items",
+      "display_order": 8,
+      "items": [
+        {
+          "name": "Chicken Salad",
+          "description": "Cranberry, celery & almond chicken salad served on a croissant.",
+          "category": "Sandwiches",
+          "price": 14.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-715ab0d3",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Turkey & Havarti",
+          "description": "w/ lettuce, avocado, & tomato on ciabatta.",
+          "category": "Sandwiches",
+          "price": 14.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-8df343b3",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Cafe Cuban",
+          "description": "Pulled mojo pork, ham, Swiss, pickles, coleslaw & mustard on ciabatta.",
+          "category": "Sandwiches",
+          "price": 15.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-f252e146",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Classic BLT",
+          "description": "Bacon, lettuce & tomato w/ mayo served on toasted multigrain.",
+          "category": "Sandwiches",
+          "price": 11.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-48e20740",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Monte Cristo",
+          "description": "Turkey, ham & Swiss on French toast w/ mustard, mayo & raspberry jam on side.",
+          "category": "Sandwiches",
+          "price": 15.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-7663ef4b",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Salmon Sandwich",
+          "description": "Blackened Atlantic salmon filet on toasted ciabatta w/ arugula, tomato & jalapeno aioli.",
+          "category": "Sandwiches",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-ba8fb0ca",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Portobello Sandwich",
+          "description": "Marinated portobello mushroom, Swiss cheese, caramelized onion, arugula & tomato w/ pesto aioli on a brioche bun.",
+          "category": "Sandwiches",
+          "price": 16.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-e1b3308c",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Short Rib & Brie Sandwich",
+          "description": "Pickled onion, arugula & horseradish sauce on ciabatta.",
+          "category": "Sandwiches",
+          "price": 19.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-a44371bf",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Maryland Crab Cake Sandwich",
+          "description": "Lemon pepper aioli, arugula & tomato on brioche w/ a side of coleslaw.",
+          "category": "Sandwiches",
+          "price": 19.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 20,
+          "id": "item-6ad7037e",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-sweet-bites",
+      "name": "Sweet Bites",
+      "description": "Sweet Bites items",
+      "display_order": 9,
+      "items": [
+        {
+          "name": "Lemon Bar",
+          "description": "w/ raspberry coulis, fresh raspberries & blackberries.",
+          "category": "Sweet Bites",
+          "price": 9.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-6072279e",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Chocolate Chip Brownie Sundae",
+          "description": "Vanilla ice cream, chocolate sauce, whip cream & caramel drizzle.",
+          "category": "Sweet Bites",
+          "price": 9.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-1b89b446",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Affogato",
+          "description": "Espresso over vanilla ice cream w/ caramel drizzle.",
+          "category": "Sweet Bites",
+          "price": 11.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-ad99c90f",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Coffee Cake",
+          "description": "Vanilla ice cream, caramel drizzle & whip cream.",
+          "category": "Sweet Bites",
+          "price": 10.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 10,
+          "id": "item-a58fd7c9",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    },
+    {
+      "id": "cat-drinks",
+      "name": "Drinks",
+      "description": "Drinks items",
+      "display_order": 10,
+      "items": [
+        {
+          "name": "Juice & Soda",
+          "description": "Orange or apple juice.",
+          "category": "Drinks",
+          "price": 4.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-88568a9c",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Smoothies",
+          "description": "Peach, strawberry, mango, strawberry banana.",
+          "category": "Drinks",
+          "price": 7.0,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-715393fd",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Espresso",
+          "description": "Double shot.",
+          "category": "Drinks",
+          "price": 4.5,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-338704f1",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Classic cappuccino.",
+          "category": "Drinks",
+          "price": 5.7,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-131f7ead",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Macchiato",
+          "description": "Classic macchiato.",
+          "category": "Drinks",
+          "price": 5.9,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-7a5ef263",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Whole-Leaf Tea",
+          "description": "Herbal, black, green.",
+          "category": "Drinks",
+          "price": 4.5,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-6b95aaf5",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Chai Latte",
+          "description": "Chai latte with optional double shot.",
+          "category": "Drinks",
+          "price": 5.9,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-138109fb",
+          "restaurant_id": "extracted-menu-001"
+        },
+        {
+          "name": "Latte",
+          "description": "Latte with various flavors.",
+          "category": "Drinks",
+          "price": 6.1,
+          "ingredients": [],
+          "allergens": [],
+          "is_available": true,
+          "preparation_time": 5,
+          "id": "item-8111bfba",
+          "restaurant_id": "extracted-menu-001"
+        }
+      ]
+    }
+  ],
+  "is_active": true,
+  "valid_from": "2024-01-01T00:00:00Z",
+  "valid_until": null,
+  "created_at": "2025-09-17T11:02:01.648118Z",
+  "updated_at": "2025-09-17T11:02:01.648118Z"
+}

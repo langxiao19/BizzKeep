@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#7443C0">
+  <!-- Location Pin Outline -->
+  <path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 11 7 11s7-5.75 7-11c0-3.866-3.134-7-7-7z"/>
+  
+  <!-- White "B" Character Inside Pin -->
+  <text
+    x="12"
+    y="9.8"
+    fill="white"
+    font-size="7"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-weight="700"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    B
+  </text>
+</svg>
+

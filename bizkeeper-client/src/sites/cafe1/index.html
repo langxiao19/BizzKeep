@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CityHealth Partners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-left">
+      <a href="#specialties">Specialties</a>
+      <a href="#doctors">Our Doctors</a>
+    </div>
+    <div class="nav-logo">CITYHEALTH</div>
+    <div class="nav-right">
+      <a href="#patients">Patient Portal</a>
+      <a href="#locations">Locations</a>
+      <button class="btn-nav" onclick="scrollToSection('appointment')">Book Now</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <img
+      class="hero-bg"
+      src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1800"
+      alt="Modern medical clinic"
+    />
+    <div class="hero-content">
+      <p class="hero-eyebrow">Trusted &bull; Accredited &bull; Here for You</p>
+      <h1>Compassionate Care<br /><em>for a Healthier You</em></h1>
+      <p class="hero-sub">World-class medical expertise and personalized treatment plans designed around your life.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="scrollToSection('appointment')">Book an Appointment</button>
+        <button class="btn-ghost" onclick="scrollToSection('specialties')">Explore Specialties</button>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- BANNER STRIP -->
+  <div class="banner-strip">
+    <span>Primary Care</span>
+    <span class="dot">&bull;</span>
+    <span>Cardiology</span>
+    <span class="dot">&bull;</span>
+    <span>Orthopedics</span>
+    <span class="dot">&bull;</span>
+    <span>Neurology</span>
+    <span class="dot">&bull;</span>
+    <span>Oncology</span>
+    <span class="dot">&bull;</span>
+    <span>Pediatrics</span>
+  </div>
+
+  <!-- SPECIALTIES -->
+  <section id="specialties" class="section">
+    <div class="section-label">What We Offer</div>
+    <h2>Medical Specialties</h2>
+    <p>From primary care to advanced surgery, our specialists are leaders in their fields.</p>
+  </section>
+
+  <!-- SPLIT: DOCTORS -->
+  <section id="doctors" class="section-split">
+    <div class="split-image">
+      <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=800" alt="Doctors" />
+    </div>
+    <div class="split-content">
+      <div class="section-label">The Team</div>
+      <h2>Meet Our Doctors</h2>
+      <p>A team of board-certified professionals committed to clinical excellence and compassionate patient care.</p>
+      <button class="btn-primary" onclick="scrollToSection('appointment')">Meet the Team</button>
+    </div>
+  </section>
+
+  <!-- PATIENTS -->
+  <section id="patients" class="section section-mid">
+    <div class="section-label">Resources</div>
+    <h2>Patient Portal</h2>
+    <p>Access forms, insurance information, and our secure digital health records — all in one place.</p>
+    <button class="btn-outline" onclick="scrollToSection('portal')">Patient Login</button>
+  </section>
+
+  <!-- APPOINTMENT (CTA) -->
+  <section id="appointment" class="section-cta">
+    <div class="cta-inner">
+      <div class="section-label light">Ready to Start?</div>
+      <h2>Schedule Your Visit</h2>
+      <p>New and returning patients can book online in less than two minutes.</p>
+      <button class="btn-primary large" onclick="scrollToSection('appointment')">Book an Appointment</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">CITYHEALTH <span>PARTNERS</span></div>
+    <nav class="footer-links">
+      <a href="#specialties">Specialties</a>
+      <a href="#doctors">Doctors</a>
+      <a href="#patients">Portal</a>
+      <a href="#locations">Locations</a>
+    </nav>
+    <p class="footer-copy">&copy; 2026 CityHealth Partners. Accredited Medical Provider.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
